@@ -1,0 +1,215 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    background-color: #FBFBFB;
+}
+.nav-container{
+   
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    box-shadow: 0 2px 5px gray;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 30px;
+    position: sticky;
+    z-index: 10;
+    right: 0%;
+    left: 0%;
+    top: 0%;
+    box-shadow: 0 4px 5px rgb(226, 226, 226) ;
+}
+#menu{
+    display: none;
+}
+.left{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+}
+.right > div
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.logo{
+    width: 60px;
+    height: 70px;
+}
+.nav-container1{
+    border-bottom: 0.3px solid grey;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey ;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   .lefthalf{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+   }
+
+   .righthalf
+   {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+    gap: 20px;
+    background-color: white;
+   }
+   .nav-container1 > righthalf > span
+   {
+    font-weight: 300;
+   }
+.container{
+    width: 80vw;
+    margin: auto;
+}
+
+
+
+
+
+.card{
+    padding: 10px;
+    width: 20%;
+    position: relative;
+    
+}
+.card img{
+    width:220px;
+}
+.card p{
+    margin: 5px 0;
+    font-weight: 100 !important;
+    font-size: 16px;
+}
+.rating-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0px;
+    font-size: 13px;
+    
+}
+.offer-container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    border-top:  1px solid grey;
+    border-bottom:  1px solid grey;
+    flex-flow: row wrap;
+    color: brown;
+    font-size: 15px;
+}
+.cards-container{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.card:hover{
+    outline: 0.5px solid grey;
+}
+.card:hover > .btn
+{
+    display: block;
+}
+
+.card::before 
+{
+    content: 'PROMOTED';
+    display: block;
+    position: absolute;
+    top: 11px;
+    background-color: black;
+    color: white;
+    padding: 4px;
+    left: 6px;
+    font-size: 12px;
+}
+
+.btn{
+    border: none;
+    font-size: 17px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    margin: 10px auto;
+    display: none;
+    justify-content: center;
+}
+
+
+
+.footer{
+background-color: black;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+padding: 40px;
+font-family: Arial, Helvetica, sans-serif;
+border-bottom: 2px solid grey;
+
+}
+.footer h3{
+    color:grey;
+    margin: 10px 0px;
+}
+.footer > div{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 8px;
+}
+.footer > div > a{
+    color: white;
+    text-decoration: none;
+    
+}
+.footer img{
+    border: 2px solid grey;
+    border-radius: 10%;
+    transition-duration: 0.5s;
+}
+.footer img:hover{
+    width: 260px;
+}
+.store-container{
+    align-items: center;
+    gap: 30px;
+}
+.footer a{
+    font-weight: 300;
+}
+.footer a:hover{
+    font-weight: bolder;
+}
+
+
+.foot{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 40px;
+    background-color: black;
+}
+
+
